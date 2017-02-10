@@ -24,5 +24,5 @@ RUN;
 
 PROC PRINT data=dietData;
 	title 'Output';
-	var Subj Height Wt_init Wt_final Height_i bmi_init bmi_final bmi_diff;*Output
+	var Subj Height Wt_init Wt_final Height_i bmi_init bmi_final bmi_diff;*Output;
 RUN;
